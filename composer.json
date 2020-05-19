@@ -1,0 +1,18 @@
+{
+    "name": "dungvn/metronic",
+    "description": "Pasckage admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dungvn",
+            "email": "dungvn@scuti.asia"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "scuti\\theme\\admin\\metronic\\": "src/"
+        }
+    }
+}
