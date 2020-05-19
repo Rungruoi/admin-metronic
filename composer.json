@@ -1,18 +1,18 @@
 {
-    "name": "dungvn/metronic",
-    "description": "Pasckage admin",
+    "name": "scuti/admin-metronic",
+    "description": "Admin builders are packages that allow administration screens",
     "type": "library",
-    "license": "MIT",
     "authors": [
         {
             "name": "dungvn",
             "email": "dungvn@scuti.asia"
         }
     ],
+    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-4": {
-            "scuti\\theme\\admin\\metronic\\": "src/"
+            "Scuti\\Admin\\Metronic\\": "src/"
         }
     }
 }

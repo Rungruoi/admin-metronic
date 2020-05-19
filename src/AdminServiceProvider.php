@@ -1,6 +1,6 @@
 <?php
 
-namespace scuti\theme\admin\metronic;
+namespace Scuti\Admin\Metronic;
 
 use Illuminate\Support\ServiceProvider;
 
