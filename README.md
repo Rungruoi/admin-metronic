@@ -30,5 +30,17 @@ Route::get('/admin', function () {
     return view('admin.index');
 });
 
+Route::get('password/reset', function () {
+    return view('auth.passwords.email');
+})->name('password.reset');
+
+Route::get('/profile', function () {
+    return view('auth.profile');
+})->name('profile.edit');
+
+Route::get('/change-password', function () {
+    return view('auth.passwords.change');
+})->name('auth.password.edit');
+
 ```
 # admin-metronic
