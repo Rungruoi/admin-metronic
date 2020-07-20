@@ -1,12 +1,12 @@
 # Scuti/AdminMetronic
-This is a form element pre-written with adminlte library of acacha.
+This is a form element pre-written with adminlte library of https://keenthemes.com/metronic/.
 
 # How to install
 
 ### Step 1: install
 
 ```php
-composer require dungvn/admin-metronic
+composer require scuti/admin-metronic
 ```
 
 ### Step 2: add service provider
@@ -14,20 +14,21 @@ composer require dungvn/admin-metronic
 In config/app.php, add following line to provider
 
 ```php
-scuti\theme\admin\metronic\AdminServiceProvider::class,
+Scuti\Admin\Metronic\AdminServiceProvider::class,
 ```
 
-### Step 3: Publish 
+### Step 3: Use the package Admin Metronic
 
 ```php
 php artisan vendor:publish --tag=admin-metronic --force
 ```
 
-### Step 4: Copy app.blade.php file to root folder of view, extend in any view
+### Step 4: In routes/web.php
 
-```php
+```
 Route::get('/admin', function () {
     return view('admin.index');
 });
+
 ```
 # admin-metronic
